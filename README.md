@@ -37,7 +37,7 @@ This software allows you to easily perform a variety of actions to test 802.11 w
 The main feature, the deauthentication attack, is used to disconnect devices from their WiFi network.  
 No one seems to care about this huge vulnerability in the official 802.11 WiFi standard, so I took action and enabled everyone who has less than 10 USD to spare to recreate this project.  
 I hope it raises more attention on the issue. In 2009 the WiFi Alliance actually fixed the problem (see [802.11w](https://en.wikipedia.org/wiki/IEEE_802.11w-2009)), but only a few companies implemented it into their devices and software.  
-To effectively prevent a deauthentication attack, both client and access point must support the 802.11w standard with protected management frames (PMF).  
+To successfully prevent a deauthentication attack, both client and access point must support the 802.11w standard with protected management frames (PMF).  
 While most client devices seem to support it when the access point forces it, basically no WiFi access point has it enabled.  
 
 Feel free to test your hardware out, annoy these companies with the problem, share this project and push for a fix!
